@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <h1>Todos los formularios del ejercicio 4</h1>
+    <form action="/formulario">
+        <p>
+            <label for="user">Ingresar su nombre de usuario:</label>
+            <input type="text" name="user" id="user" required>
+        </p>
+        <p>
+            <label for="mail">Ingresar su e-mail:</label>
+            <input type="email" name="mail" id="mail" required>
+        </p>
+        <p>
+            <label for="fecha">Ingrese la fecha</label>
+            <input type="date" placeholder="seleccione fecha" name="fecha" required>
+        </p>
+        <p>
+            <label for="color">Eligir un color</label>
+            <input type="color" id="color" name="color" required>
+        </p>
+        <p>
+            <label for="number">Número</label>
+            <input style="width: 200px;" type="number" placeholder="numero entre -5 y 5" id="number" name="num" min="-5" max="5" required>
+        </p>
+        <button>Enviar</button>    
+    </form>
+</body>
+</html>
