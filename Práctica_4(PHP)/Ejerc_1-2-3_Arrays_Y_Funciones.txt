@@ -1,0 +1,13 @@
+Práctica N4 PHP arrays y funciones…
+
+Ejercicio 1:
+Sí, ambos códigos son equivalentes. Ambos crean un array asociativo con las mismas claves y valores, y añaden un valor indexado automáticamente.
+
+Ejercicio 2:
+Salida = “bar1”
+Salida = 5942
+La variable $matriz ya no está definida.
+
+Ejercicio 3:
+Salida = “ Has entrado en esta página a las 2 horas, con 4 minutos y 44 segundos, del 14/9/2024”.
+Salida = “5+6=11”.

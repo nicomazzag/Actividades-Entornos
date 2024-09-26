@@ -1,0 +1,55 @@
+Parte: : variables, tipos, operadores, expresiones, estructuras de control
+
+Ejercicio 1: 
+a) las variables y su tipo son:	
+- $a:variable del tipo Booleano.
+- $b:variable del tipo string. 
+- $c:variable del tipo string. 
+- $d:variable del tipo entero. 
+- $f:variable del tipo entero.
+- $g:variable del tipo entero. 
+- $i:variable del tipo entero. 
+
+b) Los operadores son: 
+- *: operador aritmético o operador binario. 
+- ++: operador unario (incremento). 
+- +=: operador binario. 
+- $d = $a ? ++$d : $d*3; : se aprecia un operador ternario (?:).
+
+c) Las funciones y sus parámetros son: 
+
+- is_int(): es una función donde válida si el parámetro pasado es un entero y retorna un booleano (true o false), en este caso el parámetro es $d.
+ 
+- gettype(): es una función donde determina el tipo de dato de una variable (Entero,Flotante,Booleano,String,Char), en este caso los parámetros son $a,$b,$c,$d.
+
+- is_string(): es una función que se encarga de validar, si el parámetro pasado es del tipo de dato string o no.En este caso el parámetro es $a. 
+
+- doble(): es una funcion creada, la cual se encarag de multiplicar el parámetro y retorna el doble del mismo.En este caso el parámetro es $d. 
+
+d) Las estructuras de control es: if () {};
+
+e) Este código posee varias salidas por pantallas, las cuales son las siguientes: 
+- Todos los echo gettype(&variable), en donde se mostraran los tipos de datos dependiendo de la variable.
+
+-El último echo mostrar los siguientes datos en pantalla: 1xyzxyz184444
+
+
+
+
+
+Ejercicio 2: 
+a) El primer y el segundo bloque son equivalentes ya que ambos muestran de 1 a 10.Sin embargo el tercer bloque no es equivalente debido a que muestra desde 0 a 9. 
+
+b)Los cuatros bloques son equivalentes.
+
+c)Ambos bloques son equivalentes ya que cumplen con misma funcionalidad pero de forma estructurada diferente.
+
+
+
+Ejercicio 3:
+Este código genera una tabla mediante etiquetas HTML de 5 columnas y 2 filas. Utiliza 2 for loop y declara las variables de filas y columnas máxima como también 1 contador para cada for loop.
+El siguiente código genera un formulario en donde el usuario puede ingresar su edad. En primer lugar establece un if con la siguiente condición: !isset($_POST['submit']); validando si la clave “submit” está presente en el array global $_POST y no es nula. Luego establece el valor ingresado en una variable y determina si esta edad es propia de una persona adulta o una menor.
+Además, en el formulario establece action="<?php echo $_SERVER['PHP_SELF']; ?>"; permitiendo que el formulario se direccione a la misma página del formulario una vez apretado el botón.
+
+Ejercicio 4:
+El siguiente código arroja 2 advertencias por estar las variables $color y $flor no declaradas en el primer hecho; mientras que en el segundo imprime los valores de estas variables correctamente por haber sido conectado en la línea de código anterior el archivo datos.php mediante la función include().
